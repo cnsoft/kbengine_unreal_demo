@@ -28,7 +28,7 @@ void AMyActorBase::Tick( float DeltaTime )
 
 }
 
-void AMyActorBase::doLogin(FString ip, int port)
+void AMyActorBase::doLogin(FString ip, int32 port)
 {
 	//
 	//KBE_login2("123.59.72.3", 20013);

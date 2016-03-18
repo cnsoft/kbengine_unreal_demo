@@ -14,11 +14,11 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnyWhere, Category = "KBE")
 	FString server_ip = "";
 	UPROPERTY(BlueprintReadWrite, EditAnyWhere, Category = "KBE")
-	int server_port = 20013;
+	int32 server_port = 20013;
 
 	//connect to server.
 	UFUNCTION(BlueprintCallable, Category = "KBE")
-	virtual void doLogin(FString ip, int port);
+	virtual void doLogin(FString ip, int32 port);
 
 #if WITH_EDITOR
 	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangeEvent) override;
