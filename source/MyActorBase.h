@@ -5,7 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "MyActorBase.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class UNREALTEST1_API AMyActorBase : public AActor
 {
 	GENERATED_BODY()
