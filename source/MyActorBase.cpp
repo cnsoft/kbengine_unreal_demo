@@ -32,6 +32,8 @@ void AMyActorBase::doLogin(FString ip, int32 port)
 {
 	//
 	//KBE_login2("123.59.72.3", 20013);
+	//log("TODO LOGIN!");
+
 
 }
 

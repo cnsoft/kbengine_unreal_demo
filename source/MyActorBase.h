@@ -11,13 +11,14 @@ class UNREALTEST1_API AMyActorBase : public AActor
 	GENERATED_BODY()
 public:
 	
-	UPROPERTY(BlueprintReadWrite, EditAnyWhere, Category = "KBE")
-	FString server_ip = "";
-	UPROPERTY(BlueprintReadWrite, EditAnyWhere, Category = "KBE")
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="KBE")
+	FString server_ip = "127.0.0.1";
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="KBE")
 	int32 server_port = 20013;
-
+	UPROPERTY(BlueprintReadOnly,EditAnywhere,Category="KBE")
+	float  server_interval = 15;
 	//connect to server.
-	UFUNCTION(BlueprintCallable, Category = "KBE")
+	UFUNCTION(BlueprintCallable,Category="KBE")
 	virtual void doLogin(FString ip, int32 port);
 
 #if WITH_EDITOR
