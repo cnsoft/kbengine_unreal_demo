@@ -2,7 +2,7 @@
 
 #include "UnrealTest1.h"
 #include "MyActorBase.h"
-#include "ExampleLibrary.h"
+//#include "ExampleLibrary.h"
 
 
 // Sets default values
@@ -28,11 +28,19 @@ void AMyActorBase::Tick( float DeltaTime )
 
 }
 
-void AMyActorBase::doConnect(FString ip, int port)
+void AMyActorBase::doLogin(FString ip, int port)
 {
 	//
-	KBE_login2("123.59.72.3", 20013);
-
+	//KBE_login2("123.59.72.3", 20013);
 
 }
 
+#if WITH_EDITOR
+void AMyActorBase::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangeEvent)
+{
+	server_port = 20013;
+	server_ip = "127.0.0.1";
+	Super::PostEditChangeProperty(PropertyChangeEvent);
+
+}
+#endif
