@@ -1,9 +1,10 @@
 # kbengine_unreal4_demo
-plan to implement unreal client demo with kbengine backend server 
 
-same with kbengine_cocos2dx_demo use same core library  libkbeclient. 
+plan to implement unreal engine client demo with kbengine backend server 
 
-any suggestion contact me: cnsoft#gmail.com  
+you can check with kbengine_cocos2dx_demo first , it use same core library  libkbeclient. 
+
+Any suggestion contact me: cnsoft#gmail.com  
 
 Have a nice weekend.
 
