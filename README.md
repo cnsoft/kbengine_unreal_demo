@@ -14,3 +14,6 @@ First step! DONE!
 
 !["unreal engine 4 with kbengine together by cnsoft "](https://github.com/cnsoft/kbengine_unreal_demo/blob/hellounreal/Snapshots/test_ue4client.png) 
 
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cnsoft/kbengine-cocos2dx/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
